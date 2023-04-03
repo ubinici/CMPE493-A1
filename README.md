@@ -1,4 +1,4 @@
-# CMPE 493 - Assignment 1 Report
+# CMPE 493 - Assignment 1
 
 ***Before running the script, see: [`README`](README.txt)***
 
