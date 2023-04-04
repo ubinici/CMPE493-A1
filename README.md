@@ -22,15 +22,22 @@ After preprocessing, `index_doc()` and `build_index()` functions were defined in
 As a result, an inverted index was created to store each token with the IDs of the respective document they were found in, as well as the positions they are found among other tokens found within the same document. To exemplify the way they are stored, here is a sample unit within the inverted index:
 
 ```json
-"tunnel": {         // Token
-    "2430": [       // ID of the document that the token was found in
-        7           // Position of the token
+// Token
+"tunnel": {
+// ID of the document that the token was found in
+    "2430": [
+    // Position of the token
+        7           
     ],
-    "3568": [       // Document ID
-        52          // Position
+    // Document ID
+    "3568": [
+    // Position
+        52          
     ],
-    "5526": [       // Document ID
-        14          // Position
+    // Document ID
+    "5526": [
+    // Position
+        14          
     ],
     //...
 },
